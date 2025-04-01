@@ -4,5 +4,9 @@ export default defineConfig({
      
      test: {
           dir: "src",
+          globals: true,
+          coverage: {
+               provider: "istanbul"
+          }
      }
 })
